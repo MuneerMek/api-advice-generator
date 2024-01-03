@@ -30,3 +30,10 @@ The designs were created to the following widths:
 
 - Family: [Manrope](https://fonts.google.com/specimen/Manrope)
 - Weights: 800
+
+### API
+
+https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?
+https://api.forismatic.com/api/1.0/
+
+https://github.com/lukePeavey/quotable
