@@ -109,7 +109,7 @@ body {
   background: var(--dark-blue);
   display: grid;
   place-content: center;
-  padding-bottom: 15%;
+  padding-bottom: 12.5%;
 }
 
 .wrapper {
@@ -118,6 +118,7 @@ body {
   /* Height w/ content: 310px */
   /* 33.75rem max-width desktop */
   /* Desktop height w/ content: 330px */
+  padding: 2.5rem 1.5rem 0 1.5rem;
   color: var(--light-cyan);
   border-radius: 1rem;
   display: flex;
@@ -134,6 +135,7 @@ body {
 
 .advice-text {
   font-size: 1.75rem;
+  margin: 2rem 0;
 }
 
 .pattern-divider {
@@ -149,4 +151,15 @@ button {
   border-style: none;
   width: 3.625rem;
   height: 3.625rem;
+  position: relative;
+  top: 1.87rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .wrapper {
+    max-width: 33.75rem;
+  }
+  .pattern-divider {
+    background: url(images/pattern-divider-desktop.svg) no-repeat center;
+  }
 }
